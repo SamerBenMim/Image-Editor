@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color:  black !important;
+    margin-bottom: 0 !important;
+}
+
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -1rem, 0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.animate-fadein {
+    animation: fadein 0.3s ease-in;
+}       
