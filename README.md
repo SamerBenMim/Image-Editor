@@ -42,7 +42,7 @@
         </tr>
         <tr>
             <td><img src="./gassian.png" alt="2018-06-04 4 33 16" style="max-width:100%;"></td>
-            <td><img src="https://user-images.githubusercontent.com/35218826/40904521-f7c6e184-6815-11e8-8ba3-c94664da69a2.png" alt="2018-06-04 4 40 06" style="max-width:100%;"></td>
+            <td><img src="median.png" alt="2018-06-04 4 40 06" style="max-width:100%;"></td>
             <td><img src="high pass.png" alt="2018-06-04 4 43 02" style="max-width:100%;"></td>
             <td><img src="edge.png" alt="2018-06-04 4 47 40" style="max-width:100%;"></td>
             <td><img src="dilation.png" alt="2018-06-04 4 51 45" style="max-width:100%;"></td>
