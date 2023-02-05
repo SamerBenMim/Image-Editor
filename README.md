@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# <h1>GLSL ImageEditor</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Image Editor is a project that allows users to edit images using GLSL and React. It permits editing of images by adjusting contrast, brightness, and applying filters. Additionally, it provides image statistics and the histogram of the image.
 
-## Available Scripts
 
-In the project directory, you can run:
+## 🎨 Features
 
-### `yarn start`
+- Adjust contrast and brightness
+- Apply filters (e.g. grayscale, sepia)
+- Display image statistics (e.g. mean, standard deviation)
+- Display image histogram
+- Built with GLSL and React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📙 Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1) Clone the repository git clone (https://github.com/BorchaniSalma/Image-Editor.git)
+2) Install dependencies npm install
+## 🌏 Usage
 
-### `yarn test`
+| <img src="https://user-images.githubusercontent.com/1215767/34348387-a2e64588-ea4d-11e7-8267-a43365103afe.png" alt="Chrome" width="16px" height="16px" /> Chrome | <img src="https://user-images.githubusercontent.com/1215767/34348590-250b3ca2-ea4f-11e7-9efb-da953359321f.png" alt="IE" width="16px" height="16px" /> Internet Explorer | <img src="https://user-images.githubusercontent.com/1215767/34348380-93e77ae8-ea4d-11e7-8696-9a989ddbbbf5.png" alt="Edge" width="16px" height="16px" /> Edge | <img src="https://user-images.githubusercontent.com/1215767/34348394-a981f892-ea4d-11e7-9156-d128d58386b9.png" alt="Safari" width="16px" height="16px" /> Safari | <img src="https://user-images.githubusercontent.com/1215767/34348383-9e7ed492-ea4d-11e7-910c-03b39d52f496.png" alt="Firefox" width="16px" height="16px" /> Firefox |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                               Yes                                                                                |                                                                                   10+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💪 Has full features that stick to the basic.
 
-### `yarn build`
+### Photo manipulation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Mask Filter, Image Filter
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Integration function
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Image Load, Undo, Redo, Reset, Delete Object(Shape, Line, Mask Image...)
 
-### `yarn eject`
+<table>
+    <tbody>
+        <tr>
+            <th width="20%">Gaussian Blur</th>
+            <th width="20%">Median Filter</th>
+            <th width="20%">High Pass</th>
+            <th width="20%">Edge Detection (Erosion)</th>
+            <th width="20%">Dilation</th>
+        </tr>
+        <tr>
+            <td><img src="./gassian.png" alt="2018-06-04 4 33 16" style="max-width:100%;"></td>
+            <td><img src="median.png" alt="2018-06-04 4 40 06" style="max-width:100%;"></td>
+            <td><img src="high pass.png" alt="2018-06-04 4 43 02" style="max-width:100%;"></td>
+            <td><img src="edge.png" alt="2018-06-04 4 47 40" style="max-width:100%;"></td>
+            <td><img src="dilation.png" alt="2018-06-04 4 51 45" style="max-width:100%;"></td>
+        </tr>
+    </tbody>
+</table>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Powerful filter function
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Brightness,Noise,Contrast,Exposure,Saturation,Threshold
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Brightness                                                                                                          | Exposure                                                                                                          | Contrast                                                                                                          | Noise                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![Brightness](./brightness.png) | ![noise](./noise.png) | ![Contrast](./contrast.png) | ![Exposure](./exposure.png) |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## 🙆 Easy to apply the size and design you want
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Can be used everywhere.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Widely supported in browsers including IE10.
+- Option to support various display sizes.
+  (allows you to use the editor features on your web pages at least over **550 \* 450 sizes**)
+
+
+
